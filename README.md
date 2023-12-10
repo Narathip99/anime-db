@@ -7,4 +7,4 @@ This project use Vite + React + Typescript + TailwindCSS + JikanAPI and ESLint r
 -1. npm install
 -2. npm run dev
 
-### https://narablyat-anime-db.netlify.app/
+https://narablyat-anime-db.netlify.app/
