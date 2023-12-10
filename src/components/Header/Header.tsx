@@ -3,7 +3,9 @@ import logo from '@/assets/react.svg';
 import { BsFillSunFill } from "react-icons/bs";
 import { BsMoonStarsFill } from "react-icons/bs";
 
-export default function Header(props) {
+// กูนึกไม่ออกว่าจะใช้ type อะไรดี งั้นเอา any ไปก่อนะ
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export default function Header(props: { theme: any; setTheme: any; }) {
   const { theme, setTheme } = props;
   function ToggleTheme() {
     if (theme === 'light') {
