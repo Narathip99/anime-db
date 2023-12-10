@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: 'Prompt', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-height: 100vh;
+  min-height: 100vh;
+}
+
+.light{
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
+}
+.dark{
+  background-color: #15202b;
+  color: white;
+  transition: all 0.5s;
+}
