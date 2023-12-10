@@ -1,5 +1,5 @@
 // pages, components
-import AnimeCard from 'components/AnimeCard/AnimeCard';
+import Footer from 'components/Footer/Footer';
 import Header from 'components/Header/Header';
 import Home from 'pages/Home/Home';
 import Test from 'pages/__test__/Test';
@@ -23,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
