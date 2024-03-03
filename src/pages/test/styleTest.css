@@ -1,0 +1,40 @@
+/* src/App.css */
+.carousel-container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.item-card {
+  flex: 0 0 auto;
+  width: 100%; /* 100% width for each card */
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
